@@ -53,6 +53,7 @@
         android:layout_gravity="center"
         android:layout_width="150dp"
         android:layout_height="wrap_content"
-        android:text="Pesan sekarang" />
+        android:text="Pesan sekarang"
+        android:onClick="tuju"/>
 
 </LinearLayout>

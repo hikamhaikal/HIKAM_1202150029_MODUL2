@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:layout_gravity="center"
-    tools:context="id.simplify.hikam_1202150029_modul2.DineIn">
+    tools:context="id.simplify.hikam_1202150029_modul2.TakeAway">
     <TextView
         android:id="@+id/judulta"
         android:layout_width="match_parent"
@@ -14,11 +14,11 @@
         android:layout_gravity="center"
         android:gravity="center"
         android:paddingVertical="25dp"
-        android:text="Atas Nama Pemesanan:"
+        android:text="Identitas Pemesan:"
         android:textSize="24sp" />
 
     <EditText
-        android:id="@+id/etnama1"
+        android:id="@+id/etnama"
         android:layout_width="225dp"
         android:layout_gravity="center"
         android:layout_height="wrap_content"
@@ -26,27 +26,32 @@
         android:hint="Nama"
         android:inputType="textPersonName" />
 
-    <LinearLayout
-        android:layout_width="150dp"
-        android:layout_height="wrap_content"
+    <EditText
+        android:id="@+id/ettelp"
+        android:layout_width="225dp"
         android:layout_gravity="center"
-        android:orientation="horizontal">
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Telpon"
+        android:inputType="textPersonName" />
 
-        <TextView
-            android:id="@+id/textno"
-            android:layout_width="30dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:gravity="right"
-            android:text="No. Meja :" />
+    <EditText
+        android:id="@+id/etalamat"
+        android:layout_width="225dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Alamat"
+        android:inputType="textPersonName" />
 
-        <Spinner
-            android:id="@+id/spinner"
-            android:layout_width="50dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:gravity="left" />
-    </LinearLayout>
+    <EditText
+        android:id="@+id/etcatatan"
+        android:layout_width="225dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Catatan"
+        android:inputType="textPersonName" />
 
     <Button
         android:id="@+id/buttakeaway"
